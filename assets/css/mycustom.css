@@ -1,0 +1,111 @@
+#page-container{
+	padding-top:30px;
+}
+#time_Day:hover, #time_Day:focus{
+	color: #fff!important;
+	cursor: grab;
+
+}
+.content{
+	padding: 55px 25px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+     /*Set the fixed height of the footer here */
+  height: 45px;
+  background-color: #154360;
+  margin-left:0px!important;
+  color:#FFF;
+}
+
+.navbar{
+	height:70px;
+}
+.navbar .day{
+	font-size:30px;
+}
+.navbar .time{
+	font-size:30px;
+}
+.navbar .container-fluid{
+	height:70px;
+	background: #154360;
+}
+.navbar .navbar-header .navbar-brand{
+	height:70px;
+	background:none!important;
+	width:80px;
+	padding:2px 2px 3px 0px;
+	background: #FFF!important;
+	margin-right:0px!important;
+}
+.navbar ul.nav.navbar-nav li a{
+	height:70px;
+	text-align:center;
+	color:#FFF;
+}
+
+.navbar ul.nav.navbar-nav li.active a{
+	background:#00698C;
+}
+/*.navbar ul.nav.navbar-nav li a:hover{
+	background:#FFF;
+	color:#00698C;
+}
+*/
+ul.dropdown-menu li a{
+	height:30px!important;
+	text-align:left!important;
+	color:#333!important;
+}
+.panel.panel-primary .panel-heading{
+	background-color: #154360;
+}
+.panel.panel-primary .panel-footer{
+	background-color: #154360;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#FFF;
+}
+
+.panel.panel-info .panel-heading{
+	background-color: #00698C;
+}
+.panel.panel-info .panel-footer{
+	background-color: #00698C;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#FFF;
+}
+
+.bg-dark-blue{
+	background:#154360;color:#FFF
+}
+.no-radius{
+	border-radius: 0px;
+}
+.border-l-none{
+	border-left:none!important;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	    background: #0085B2!important;
+	    border-color: #0085B2!important;
+}
+
+/* CUSTOM SCROLLBAR*/
+* ::-webkit-scrollbar {
+    height: 7px;
+    width:7px;
+}
+* ::-webkit-scrollbar-thumb {
+    background: #00698C;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.border-r{
+	border-right: 1px solid #FFF
+}
